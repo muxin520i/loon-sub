@@ -4,15 +4,17 @@
 
 ## 订阅链接
 
-```
-https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
-```
-
-国内直连不稳时用加速镜像（任选其一，内容相同）：
+国内优先用这两条（已验证返回 41 个节点，13.4 KB）：
 
 ```
 https://cdn.jsdelivr.net/gh/muxin520i/loon-sub@main/sub.txt
 https://ghfast.top/https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
+```
+
+官方地址（国内常被墙，Loon 报「下载失败」就换上面的）：
+
+```
+https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
 ```
 
 ## 在 Loon 里添加
