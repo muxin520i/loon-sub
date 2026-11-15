@@ -1,10 +1,10 @@
 # Loon 订阅（Clash YAML → Loon 转换）
 
-把 `clash.yaml` 里的 55 个节点转成 Loon 可直接「添加订阅」的格式，剔除 Loon 不支持的传输方式后，**41 个节点可用**。
+把 `clash.yaml` 里的 55 个节点转成 Loon 可直接「添加订阅」的格式，剔除 Loon 不支持的传输方式后，**44 个节点可用**（含手动补录的 3 个 REALITY）。
 
 ## 订阅链接
 
-国内优先用这两条（已验证返回 41 个节点，13.4 KB）：
+国内优先用这两条（已验证返回 44 个节点，14.6 KB）：
 
 ```
 https://cdn.jsdelivr.net/gh/muxin520i/loon-sub@main/sub.txt
@@ -39,7 +39,7 @@ https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
 
 | 协议 | 数量 | 说明 |
 | --- | --- | --- |
-| VLESS | 25 | 含 7 个 REALITY（tcp + vision）、18 个 WS/TCP + TLS |
+| VLESS | 28 | 含 10 个 REALITY（tcp + vision，其中 3 个来自 `ycy.szs.l.cd`）、18 个 WS/TCP + TLS |
 | Shadowsocks | 11 | 10 个 `aes-256-gcm` + 1 个 `aes-256-cfb` |
 | VMess | 4 | WS 3 个 + h2 1 个 |
 | Trojan | 1 | WS + TLS |
@@ -71,3 +71,8 @@ git add -A && git commit -m "update nodes" && git push
 ```
 
 Loon 端下拉刷新即可生效。
+
+## 变更记录
+
+- **2026-11-15** 追加 3 个 REALITY 节点（`ycy.szs.l.cd:49753`，SNI 分别为 uedata / konrad-test / www.cdn 的 amazon 域名），节点数 41 → 44。
+- **2026-11-11** 首次生成，55 个源节点 → 41 个可用。
