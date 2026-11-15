@@ -8,7 +8,7 @@
 
 ```
 https://cdn.jsdelivr.net/gh/muxin520i/loon-sub@main/sub.txt
-https://ghfast.top/https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
+https://gh-proxy.com/https://raw.githubusercontent.com/muxin520i/loon-sub/main/sub.txt
 ```
 
 官方地址（国内常被墙，Loon 报「下载失败」就换上面的）：
